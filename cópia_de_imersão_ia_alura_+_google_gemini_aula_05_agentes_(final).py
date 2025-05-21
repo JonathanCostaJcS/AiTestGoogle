@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1eKH-vf7KP-KyaF9kxTK69iM67AWwpSd8
 """
 
-!pip install -q streamlit 
-!pip install -q google-genai 
-!pip install -q google-adk
+pip3 install -q streamlit 
+pip3 install -q google-genai 
+pip3 install -q google-adk
 
 # Imports the streamlit library
 import streamlit as st
