@@ -7,8 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1eKH-vf7KP-KyaF9kxTK69iM67AWwpSd8
 """
 
-# Commented out IPython magic to ensure Python compatibility.
-# %pip install -q streamlit google-genai google-adk
+!pip install -q streamlit 
+!pip install -q google-genai 
+!pip install -q google-adk
 
 # Imports the streamlit library
 import streamlit as st
@@ -60,7 +61,6 @@ print()
 display(HTML(response.candidates[0].grounding_metadata.search_entry_point.rendered_content))
 
 # Instalar Framework de agentes do Google ################################################
-!pip install -q google-adk
 
 from google.adk.agents import Agent
 from google.adk.runners import Runner
